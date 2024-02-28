@@ -1,0 +1,135 @@
+[
+  {
+    "ContainingType": "FastFoodAPI.Controllers.DrinksController",
+    "Method": "GetAllDrinks",
+    "RelativePath": "api/Drinks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SortByCost",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.DrinksController",
+    "Method": "AddDrink",
+    "RelativePath": "api/Drinks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDrink",
+        "Type": "FastFoodAPI.Models.Drink",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.DrinksController",
+    "Method": "UpdateDrink",
+    "RelativePath": "api/Drinks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fancierDrink",
+        "Type": "FastFoodAPI.Models.Drink",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.DrinksController",
+    "Method": "GetDrinkById",
+    "RelativePath": "api/Drinks/GetDrinkById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.TacosController",
+    "Method": "GetAllTacos",
+    "RelativePath": "api/Tacos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "softShell",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.TacosController",
+    "Method": "AddTaco",
+    "RelativePath": "api/Tacos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTaco",
+        "Type": "FastFoodAPI.Models.Taco",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.TacosController",
+    "Method": "DeleteTaco",
+    "RelativePath": "api/Tacos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastFoodAPI.Controllers.TacosController",
+    "Method": "GetTacoById",
+    "RelativePath": "api/Tacos/GetTacoById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
